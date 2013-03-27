@@ -20,10 +20,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odA-UF-7po">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="T3O-ml-sLV" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="6I3-pI-cRW"/>
+                            <constraint firstItem="odA-UF-7po" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="0qP-YH-yTZ"/>
+                            <constraint firstItem="odA-UF-7po" firstAttribute="centerX" secondItem="T3O-ml-sLV" secondAttribute="centerX" type="default" id="LoD-s9-YCD"/>
+                            <constraint firstItem="odA-UF-7po" firstAttribute="top" secondItem="3" secondAttribute="top" constant="121" id="lZe-Pw-kSa"/>
                             <constraint firstItem="T3O-ml-sLV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="8" id="sOJ-tS-13q"/>
                         </constraints>
                     </view>
