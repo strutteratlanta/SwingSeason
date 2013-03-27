@@ -30,13 +30,21 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Fm3-H8-UKc">
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="odA-UF-7po" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="0qP-YH-yTZ"/>
                             <constraint firstItem="odA-UF-7po" firstAttribute="centerX" secondItem="T3O-ml-sLV" secondAttribute="centerX" type="default" id="LoD-s9-YCD"/>
+                            <constraint firstItem="Fm3-H8-UKc" firstAttribute="top" secondItem="odA-UF-7po" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OHd-Le-rH6"/>
+                            <constraint firstItem="Fm3-H8-UKc" firstAttribute="centerX" secondItem="odA-UF-7po" secondAttribute="centerX" type="default" id="aPn-gb-faB"/>
                             <constraint firstItem="odA-UF-7po" firstAttribute="top" secondItem="3" secondAttribute="top" constant="121" id="lZe-Pw-kSa"/>
                             <constraint firstItem="T3O-ml-sLV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="8" id="sOJ-tS-13q"/>
+                            <constraint firstItem="Fm3-H8-UKc" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="tad-8i-5cV"/>
                         </constraints>
                     </view>
                 </viewController>
